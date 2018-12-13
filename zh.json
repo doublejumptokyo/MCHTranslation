@@ -14,11 +14,11 @@
   },
   "pages": {
     "home": "主页",
-    "account": "Account",
+    "account": "账号",
     "inventory": "物品栏",
     "team": "队伍",
     "battles": "战斗",
-    "duel": "Duel",
+    "duel": "对战",
     "quest": "任务",
     "market": "市场",
     "help": "帮助",
@@ -46,18 +46,18 @@
     "button": "准备完成！"
   },
   "referral": {
-    "under": "There was something wrong of displaying amount of referral GUM. We are trying to fix this problem now.",
+    "under": "显示介绍所得GUM出错，我们正在尝试解决这个问题。",
     "description": "分享你的专属链接给朋友并获得GUM吧！\n每当你介绍的朋友使用ETH购买物品，你可以获得百分之20的提成（注意：获得提成条件为被邀请玩家在本游戏中使用ETH）",
-    "shareText": "#MyCryptoHeroes That is the world where all the time and passion you invest into the game will turn into real assets. ‪Join Japanese authentic “blockchain RPG” which can be played without cryptocurrency, and even wallets!!‬"
+    "shareText": "#MyCryptoHeroes是一个广阔的世界，你为其付出的所有的时间、热情，都会成为你真正的财富。你无需虚拟货币和钱包就可加入日本的“blockchain RPG”‬"
   },
   "assetId": {
     "artEdit": "编辑",
     "approve": {
-      "description": "To use your heroes, you need to finish two steps. 1st, Transfer Preparation. 2nd, Transfer to Crypto World.",
-      "extensiondescription": "To use your extensions, you need to finish two steps. 1st, Transfer Preparation. 2nd, Transfer to Crypto World.",
-      "button": "Transfer Preparation",
-      "heroonce": "This only needs to be done once for your heroes!",
-      "extensiononce": "This only needs to be done once for your extensions!"
+      "description": "要使用你的英雄，你需要进行两步操作。 第一步，准备好转移 第二步，转移到Crypto World中",
+      "extensiondescription": "要使用你的Extension，你需要进行两步操作。 第一步，准备好转移 第二步，转移到Crypto World中",
+      "button": "准备转移",
+      "heroonce": "本操作只需要进行一次！",
+      "extensiononce": "本操作只需要进行一次！"
     },
     "deposit": "转移到秘密世界Crypto world中",
     "withdraw": "转移到ETH网络中",
@@ -78,7 +78,7 @@
         ],
         "cost": "从第二次开始，每次编辑需要花费40GUM，确定要进行吗？"
       },
-      "nickname": "Set nick name"
+      "nickname": "设置昵称"
     }
   },
   "battle": {
@@ -117,17 +117,17 @@
     "shop": {
       "current": "当前：",
       "dailybonus": "每日奖励",
-      "comment": "It takes 2 mins to recieve GUM after buying GUM.",
+      "comment": "成功购买GUM后，所购入的GUM会在两分钟后到账",
       "wallet": "你需要安装ETH钱包（Ethereum Wallet）来购买GUM"
     },
     "trade": {
-      "startPrice": "Start Price",
-      "endPrice": "End Price",
-      "rule1": "10 % of the price will be added to the price as a commission fee.",
-      "rule2": "Price dropping rate will be calculated automatically. It will be set to decrease by 1/5 of gap between Start Price and End Price. So in 5 days, the price will reach to End Price.",
-      "rule3": "Note; The item (heroes or extensions) must be unequipped to sell. Likewise, heroes/extensions can’t be withdrawn while its exhibited within 5 days or unless you cancel it .",
-      "buy1": "Confirm buying",
-      "buy2": "with",
+      "startPrice": "开始价格",
+      "endPrice": "结束价格",
+      "rule1": "实际价格会高于标记价格的百分之10作为手续费",
+      "rule2": "每次降价的比例设定为五分之一，经过五次降价后价格会与结束价格相等。",
+      "rule3": "注意：物品需要解除装备才能进行出售。同样，你也不能装备已经上架的物品，除非撤销上架",
+      "buy1": "确认购买",
+      "buy2": "通过",
       "buy3": "GUM"
     },
     "lab": {
@@ -143,8 +143,8 @@
       "10": "GUM",
       "11": "确认购买",
       "12": "确认出售",
-      "13": "Select all",
-      "14": "Unselect"
+      "13": "全选",
+      "14": "取消选择"
     }
   },
   "quest": {
@@ -161,21 +161,21 @@
     "1": "通过以下连接访问METAMASK官方网站并在你的浏览器中安装METAMASK吧！",
     "2": "完成安装后，创建一个钱包并进行游戏！",
     "3": "如何使用METAMASK，更多信息请点击",
-    "4": "Click Play Game and Normal Play with Wallet",
-    "5": "Download Mobile browser application with wallet function",
-    "6": "Open browserapp and copy and paste the below URL, then you can access to MCH!"
+    "4": "点击开始游戏，通过钱包开始游戏",
+    "5": "下载带有钱包功能的浏览器",
+    "6": "打开浏览器并复制以下URL连接至浏览器打开，就可以进行游戏了！"
   },
   "shop": {
     "doubleUpCampaign": "双倍活动正在进行中！",
     "heroes": {
-      "confirm": "Buy {heroName} for {price} GUM"
+      "confirm": "购买 {heroName} 通过 {price} GUM"
     }
   },
   "duel": {
-    "trial": "Trial",
-    "cost": "Duel consumes 5 stamina each time",
-    "acquired": "Acquired",
-    "win": "win and",
-    "lose": "losses"
+    "trial": "测试版",
+    "cost": "每次决斗将消耗5点体力",
+    "acquired": "已获得",
+    "win": "胜利",
+    "lose": "失败"
   }
 }
